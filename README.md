@@ -13,13 +13,13 @@ A command-line utility to manage all your passwords and retrive them on need.
 
 ### in security-sys.py
 * `pip install notify_run` Install package to send mails.
-* Sign up in [Notify.run](notify.run)
+* Sign up in [Notify.run](https://notify.run)
 
 ## All Set! We're Good to Go!
 
 ## Contributors:
 
-### All Done by [Akshat Kumar Singh](github.com/Akshat-unt)
+### All Done by [Akshat Kumar Singh](https://github.com/Akshat-unt)
 
 ## Contribute 👍:
 
