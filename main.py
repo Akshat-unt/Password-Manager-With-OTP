@@ -3,16 +3,16 @@ def Verified_device():
 
     password = str(input("Enter your password:\n"))
 
-    Real_Password = "#yes@akshat"
+    UNIVERSAL_Password = "Password"  # SET YOUR UNIVERSAL PASSWORD {DARE NOT FORGET IT!!!!}
 
-    Database = {
-      "github": "yes@akshat8276",
-      "akshat.unt@gmail.com": "yes@akshat",
-      "laptop" : 14102004,
-      "unt.akshat@gmail.com": "{Akshat}!8276"
+    Database = {                     # CONFIGURE ALL YOUR PASSWORDS IN THE SAME FORMAT.
+      "github": "your pass",
+      "phone": "your password",
+      "laptop" : "your password",
+      "mail": "your password"
     }
 
-    if password == Real_Password:
+    if password == UNIVERSAL_Password:
     	identity = input("Of Which ID:\n")
     	value = Database[identity]
     	print(value)
