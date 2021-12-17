@@ -5,17 +5,17 @@ def Verified_device():
 
     UNIVERSAL_Password = "Password"  # SET YOUR UNIVERSAL PASSWORD {DARE NOT FORGET IT!!!!}
 
-    Database = {                     # CONFIGURE ALL YOUR PASSWORDS IN THE SAME FORMAT.
-      "github": "your pass",
-      "phone": "your password",
-      "laptop" : "your password",
-      "mail": "your password"
-    }
-
     if password == UNIVERSAL_Password:
-    	identity = input("Of Which ID:\n")
-    	value = Database[identity]
-    	print(value)
+        identity = input("Of Which ID:\n")
+        Database = {                     # CONFIGURE ALL YOUR PASSWORDS IN THE SAME FORMAT.
+          "github": "your pass",
+          "phone": "your password",
+          "laptop" : "your password",
+          "mail": "your password"
+        }
+
+        value = Database[identity]
+        print(value)
 
     else:
         print("Wrong password!")
