@@ -1,5 +1,4 @@
 def Verified_device():
-    import os
 
     password = str(input("Enter your password:\n"))
 
